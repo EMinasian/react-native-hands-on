@@ -8,7 +8,7 @@ export default HomeScreen = ({ navigation }) => {
       <StatusBar style="auto" />
       <Button
         title="Go to a post"
-        onPress={() => navigation.navigate("Post", { name: "Jane" })}
+        onPress={() => navigation.navigate("Post")}
       />
     </View>
   );
