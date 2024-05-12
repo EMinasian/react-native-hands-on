@@ -1,9 +1,9 @@
 import { StyleSheet, Text, View } from "react-native";
 
-export default PostScreen = () => {
+export default LoginScreen = () => {
   return (
     <View style={styles.container}>
-      <Text>A post interface!</Text>
+      <Text>A Login interface!</Text>
     </View>
   );
 };
